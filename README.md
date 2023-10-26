@@ -185,17 +185,23 @@ sudo systemctl restart nginx
  
  "sudo chmod +x nginx.sh" is added to execute the file and run the script using command ./nginx.sh PUBLIC_IP Webserver-1 Webserver-2
 
-The three commands are demostrated below as highlighred on the screenshot.
+The three commands are demostrated below as highlighted on the screenshots below.
 
- - sudo vi nginx.sh ,sudo chmod +x nginx.sh
+ - sudo vi nginx.sh
+ - sudo chmod +x nginx.sh
 
 ![file creation](https://github.com/NANA-2016/PROJECT-8/assets/141503408/5e37084d-d4ef-48a1-8032-ca5c216ed43f)
 
- - ./nginx.sh PUBLIC_IP Webserver-1 Webserver-2
+ - ./nginx.sh PUBLIC_IP Webserver-1 Webserver-2 
+ 
+ - (./nginx.sh  18.170.29.170 35.178.199.112:8000 35.178.184.234:8000)
+
 
 ![running nginx script](https://github.com/NANA-2016/PROJECT-8/assets/141503408/614ed5c9-8f73-482f-aaa8-9e11d4fe7043)
 
 ## http://18.170.29.170:80 on web.
+
+ Below screenshows the expected outcome on the web for nginx as the load balancer .
 
 ![S3 WEBPAGE](https://github.com/NANA-2016/PROJECT-8/assets/141503408/f6d7d3d6-3c45-44a9-b233-af5f151ce5e6)
  
